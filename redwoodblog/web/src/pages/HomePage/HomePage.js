@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <>
       {/* Hero section */}
-      <section className="relative">
+      <section className="relative font-Poppins">
           <div className="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
               {/* Content  */}
               <div className="flex flex-1 flex-col items-center lg:items-start">
