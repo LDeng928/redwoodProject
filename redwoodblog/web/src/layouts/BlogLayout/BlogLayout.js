@@ -12,7 +12,11 @@ const BlogLayout = ({ children }) => {
           <div className="uppercase text-sm sm:flex-grow">
             <Link to={routes.home()} className="block mt-5 text-lg sm:inline-block sm:mt-0 text-ntst-white hover:text-ntst-purple mr-4">Home</Link>
             <Link to={routes.about()} className="block mt-5 text-lg sm:inline-block sm:mt-0 text-ntst-white hover:text-ntst-purple mr-4">About</Link>
+            <Link to={routes.contact()} className="block mt-5 text-lg sm:inline-block sm:mt-0 text-ntst-white hover:text-ntst-purple mr-4">Contact</Link>
           </div>
+          {/* Search icon */}
+          <a href="#" className="block cursor-pointer px-4 py-2"><i className="text-xl text-ntst-white hover:text-ntst-purple fas fa-search"></i></a>
+          {/* Login */}
           <a href="#" className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-blue-500 hover:bg-white mt-4 md:mt-0">Login</a>
       </div>
     </nav>
